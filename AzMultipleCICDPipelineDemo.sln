@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28803.916
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzWebApp", "AzWebApp\AzWebApp.csproj", "{7DC2CEFA-DDA9-4DEA-9AA2-DEAF917DE6E2}"
 EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "AzureArmTemplateCICDDemo", "AzureArmTemplateCICDDemo\AzureArmTemplateCICDDemo\AzureArmTemplateCICDDemo.deployproj", "{8810C1BD-F1A0-4CD6-8AE9-1943D2B35936}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlServerDemoCICD", "SqlServerDemoCICD\SqlServerDemoCICD\SqlServerDemoCICD.sqlproj", "{DC25B286-FD14-4018-9703-0087AC004EED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{7DC2CEFA-DDA9-4DEA-9AA2-DEAF917DE6E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DC2CEFA-DDA9-4DEA-9AA2-DEAF917DE6E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DC2CEFA-DDA9-4DEA-9AA2-DEAF917DE6E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8810C1BD-F1A0-4CD6-8AE9-1943D2B35936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8810C1BD-F1A0-4CD6-8AE9-1943D2B35936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8810C1BD-F1A0-4CD6-8AE9-1943D2B35936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8810C1BD-F1A0-4CD6-8AE9-1943D2B35936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC25B286-FD14-4018-9703-0087AC004EED}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
